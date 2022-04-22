@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# Portfolio 
+
+### Built with:
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Firebase](https://firebase.google.com/)
+* [Github](https://github.com/)
+* [Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/)
+* [Font Awesome](https://fontawesome.com/docs/web/use-with/react/)
+* [GoogleFonts](https://fonts.google.com/specimen/Raleway)
+
+### Brand Colors
+Primary:
+* #445d6e
+* #fdec9a
+Secondary:
+* #1d4769
+* #ddc8b3
+
+## To Deploy via CLI
+$ npm run build 
+$   https://cra.link/deployment
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

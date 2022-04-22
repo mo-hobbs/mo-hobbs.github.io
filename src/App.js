@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from "./Header";
+import Footer from "./Footer";
+import Socials from "./Socials";
+
+import "bootstrap/dist/css/bootstrap.css";
+
+import { Container, Col, Row } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          My Portfolio
-        </a>
-      </header>
-    </div>
+<Container >
+<Col className="sidebar"> 
+<Socials />
+</Col>
+
+<Col> 
+
+<Header  />
+<Footer />
+</Col>
+
+<Col> 
+
+</Col>
+
+
+
+
+
+
+    
+
+</Container>
+
+
+
   );
 }
 
